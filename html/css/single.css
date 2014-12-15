@@ -1,0 +1,68 @@
+#nav1 {
+	float:left;
+	width:960px;
+	height:42px;
+	margin:25px 0 0 0;
+	border-radius:5px 5px 0 0;
+	background:url(../images/menubg.png) no-repeat left top;
+}
+#nav1 ul {
+	list-style:none;
+	margin:0;
+	padding:0
+}
+#nav1 > ul > li {
+	float:left;
+	display:inline;
+	height:42px;
+	background:url(../images/menuli.png) no-repeat right bottom;
+	position:relative;
+}
+#nav1 > ul > li > a {
+	color:#FFF;
+	display:block;
+	font-size:14px;
+	line-height:42px;
+	text-align:center;
+	text-decoration: none;
+	text-shadow:1px 1px 1px #000000;
+}
+#nav1 > ul > li:hover > a, #nav1 > ul > li.active {
+	background:url(../images/menuhover.png) repeat-x left top;
+}
+#nav1 ul ul {
+	background-color:#006c99;
+	-webkit-border-radius-:0 0 4px 4px;
+	-mo-border-radius:0 0 4px 4px;
+	-ms-border-radius:0 0 4px 4px;
+	-o-border-radius:0 0 4px 4px;
+	border-radius:0 0 4px 4px;
+	padding:4px 0;
+	position:absolute;
+	top:42px;
+	left:-5000px;
+	min-width:100%;
+	z-index:100000000000;
+	opacity:0
+}
+#nav1 .menu-right:hover ul {
+	left:auto;
+	right:0
+}
+#nav1 li:hover ul {
+	left:0;
+	opacity:1;
+}
+#nav1 ul ul li {
+	white-space:nowrap
+}
+#nav1 ul ul a {
+	color:#fff;
+	padding:6px 15px;
+	display:block;
+	text-decoration:none;
+}
+#nav1 ul ul a:hover {
+	color:#3e85a5;
+	background-color:#fff;
+}

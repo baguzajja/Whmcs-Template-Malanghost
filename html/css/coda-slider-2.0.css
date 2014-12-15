@@ -1,0 +1,48 @@
+/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider {
+	height: 280px;
+	overflow: auto !important;
+	float:left;
+}
+/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panel {
+	width: 680px;
+	min-height:280px;
+	float:left;
+}
+/* Panel padding */
+	.coda-slider .panel-wrapper {
+	padding: 0
+}
+/* Preloader */
+	.coda-slider p.loading {
+	padding: 20px;
+	text-align: center
+}
+/* Don't change anything below here unless you know what you're doing */
+	
+	/* Miscellaneous */
+.coda-slider-wrapper {
+	clear: both;
+	padding: 0;
+	float:left;
+	border:5px solid #FFF;
+	border-radius:7px;
+	overflow:hidden;
+	width:950px;
+}
+.coda-slider {
+	float: left;
+	overflow: hidden;
+}
+.coda-slider .panel {
+	display: block;
+	float: left
+}
+.coda-slider .panel-container {
+}
+.panel {
+}
+#coda-nav-1 {
+	display:none;
+}
